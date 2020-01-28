@@ -77,7 +77,7 @@ You can install the development version of `rltheme` from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("Redpill-Linpro/rltheme")
+devtools::install_github("mskyttner/rltheme")
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ A helper function is availble for system-wide install of fonts on Linux
 OSes:
 
 ``` r
-# install from https://github.com/Redpill-Linpro/rltheme
+# install from https://github.com/mskyttner/rltheme
 library(rltheme)
 install_fonts_linux()
 
