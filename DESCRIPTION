@@ -1,0 +1,37 @@
+Package: rltheme
+Type: Package
+Title: Redpill-Linpro Profile Theme For 'ggplot2'
+Version: 0.1.0
+Authors@R: 
+    as.person(c(
+        "Markus Skyttner <markus@redpill-linpro.com> [aut, cre]"
+    ))
+Maintainer: Markus Skyttner <markus@redpill-linpro.com>
+Description: A 'ggplot2' theme with some extras, aliging with the graphical
+   profile for Redpill-Linpro. Copies of the Lato and Georgia fonts are included.
+License: file LICENSE
+Encoding: UTF-8
+Suggests:
+    testthat,
+    dplyr,
+    gridExtra,
+    hunspell,
+    stringi,
+    clipr,
+    svglite
+Depends:
+    R (>= 3.2.0)
+Imports:
+    ggplot2 (>= 2.2.1),
+    grDevices,
+    grid,
+    scales,
+    extrafont,
+    knitr,
+    rmarkdown,
+    htmltools,
+    tools,
+    magrittr,
+    gdtools
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
