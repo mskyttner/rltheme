@@ -13,7 +13,7 @@
 #' @export
 import_lato <- function() {
 
-  lato_font_dir <- system.file("fonts", "lato", package="rlheme")
+  lato_font_dir <- system.file("fonts", "lato", package="rltheme")
 
   suppressWarnings(suppressMessages(extrafont::font_import(lato_font_dir, prompt=FALSE)))
 

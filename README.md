@@ -4,7 +4,6 @@
 # rltheme
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 This is an R package providing some styling resources for web content
@@ -27,15 +26,15 @@ This package installs various styling assets as outlined below.
 It includes fonts in the two main font families used in the graphical
 profile:
 
-  - Lato (Open SIL licensed font)
-  - Georgia (MS font)
+- Lato (Open SIL licensed font)
+- Georgia (MS font)
 
 ### Templates for rmarkdown content
 
 Two templates are provided for styling `rmarkdown` authored content:
 
-  - one for general HTML content with the CSS styles
-  - one for PDF output
+- one for general HTML content with the CSS styles
+- one for PDF output
 
 The HTML template uses a stylesheet (CSS file) harvested from
 <https://redpill-linpro.com> on 2020-01-27 which has been “beautified”
@@ -57,18 +56,18 @@ Finally, there is a set of color palettes based on the primary and
 secondary signature colors for Redpill-Linpro. This color palette can be
 used to color qualitative data, sequential data and diverging data.
 
-  - qualitative palette for nominal or unordered categorical values
-    (using the primary profile color (blue), followed by the secondary
-    profile colors, each in three variants using 100%, 40% and 80% alpha
-    respectively
-  - sequential palette for quantitative magnitudes - high/low values -
-    or for ordered categorical data (the primary color in 5 stepped
-    variations - using varying levels of alpha)
-  - diverging palette for use with quantitative values centered around
-    some point - or centered ordered categorical data (the primary color
-    is used on one end of the palette and the closest complement color
-    on the other to provide a 7-color palette with three steps of blue,
-    a gray midpoint and three steps of red)
+- qualitative palette for nominal or unordered categorical values (using
+  the primary profile color (blue), followed by the secondary profile
+  colors, each in three variants using 100%, 40% and 80% alpha
+  respectively
+- sequential palette for quantitative magnitudes - high/low values - or
+  for ordered categorical data (the primary color in 5 stepped
+  variations - using varying levels of alpha)
+- diverging palette for use with quantitative values centered around
+  some point - or centered ordered categorical data (the primary color
+  is used on one end of the palette and the closest complement color on
+  the other to provide a 7-color palette with three steps of blue, a
+  gray midpoint and three steps of red)
 
 ## Installation
 
@@ -159,6 +158,10 @@ ggplot(mpg, aes(displ, hwy)) +
   theme(legend.position="none") -> gg
 
 flush_ticks(gg)
+#> Warning: Vectorized input to `element_text()` is not officially supported.
+#> ℹ Results may be unexpected or may change in future versions of ggplot2.
+#> Vectorized input to `element_text()` is not officially supported.
+#> ℹ Results may be unexpected or may change in future versions of ggplot2.
 #> theme(axis.text.x=element_text(hjust=c(0, rep(0.5, 6), 1))) +
 #> theme(axis.text.y=element_text(vjust=c(0, rep(0.5, 3), 1)))
 ```

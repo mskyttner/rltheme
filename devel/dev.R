@@ -8,8 +8,8 @@ document()
 check()
 
 # first revert the .gitignore if it has been changed by below
-build_vignettes()
-pkgdown::build_site()
+#build_vignettes()
+build_site()
 
 
 
